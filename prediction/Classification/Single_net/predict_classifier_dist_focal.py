@@ -53,8 +53,6 @@ with tf.device('/gpu:0'):
     n_acc_focal = 0
     n_acc_dist = 0
     print(len(paths_test))
-
-    file = open(filename_results, 'a')
    
     #input image
     image = cv2.imread('')
